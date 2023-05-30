@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>APP Qualité de l'Air</title>
+</head>
+<body>
+    <div class="backgroundLayer"></div>
+    <div class="appContainer">
+        <h1>Qualité de l'air APP</h1>
+        <div class="informationDuBlock">
+            <div class="loader active">
+                <img class="loaderLogo" src="./img/loader.png" alt="Icone recyclage">
+            </div>
+
+            <img class="emojiLogo" src="./img/Content.png" alt="Emoji Smile" >
+            <p class="informationUtilisateur">Information sur votre ville</p>
+            <table>
+                <tr>
+                    <th class="label">Ville</th>
+                    <td class="nomDeLaVille">Chercher le nom...</td>
+                </tr>
+                <tr>
+                    <th class="label">Info de pollution</th>
+                    <td class="infoPollution">Avis...</td>
+                </tr>
+                <tr>
+                    <th class="label">Indice de la qualité de l'air</th>
+                    <td class="qualiteDeLairValeur">Chercher le nom...</td>
+                </tr>
+            </table>
+            <p class="echelleBarText">Echelle de pollution :</p>
+            <div class="echelleBarContainer">
+                <img class="localisationPointeur" src="./img/localisation.png" alt="Icone positions" >
+                <div class="echelleSection"></div>
+                <div class="echelleSection"></div>
+                <div class="echelleSection"></div>
+                <div class="echelleSection"></div>
+                <div class="echelleSection"></div>
+                <div class="echelleSection"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
